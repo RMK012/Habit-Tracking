@@ -1,18 +1,28 @@
-Overview
-The Swimming Habit Tracker is a Python tool that leverages the Pixela API to help users monitor and visualize their swimming habits. Users can track the number of pools they swam each day and visualize their progress over time.
+# 🏊‍♂️ Swimming Habit Tracker
 
-Features
-User Creation: Set up a new user profile on Pixela.
-Graph Creation: Create a dedicated swimming graph to visualize swimming habits.
-Swimming Data Logging: Log the number of pools swum on a specific day.
-Data Update: Modify previously logged data.
-Data Deletion: Remove specific data entries if needed.
-Dependencies
-requests: Required for making HTTP requests to the Pixela API.
-Usage
-Ensure you have the requests library installed.
-Update the TOKEN, USERNAME, and GRAPH_ID variables with your desired values.
-Run the script and input the number of pools you swam when prompted.
-The script will then interact with the Pixela API and provide feedback on the operation's success.
-Note
-For security reasons, avoid hardcoding sensitive information like tokens directly in the script. Consider using environment variables or external configuration files.
+Track and visualize your swimming habits using the Pixela API. This Python script allows you to log the number of pools you swim each day and see your progress over time.
+
+## 🌟 Features
+
+- **User Profile**: Automatically set up a new user profile on Pixela.
+- **Swimming Graph**: Generate a visual graph to represent your swimming sessions.
+- **Log Sessions**: Input the number of pools swum on any given day.
+- **Modify Data**: Easily update or delete previously logged swimming data.
+
+## 📦 Dependencies
+
+- Python's `requests` library: Used for API interactions.
+
+## 🚀 Getting Started
+
+1. **Setup**: Ensure you've installed the `requests` library. You can install it using pip:
+   ```
+   pip install requests
+   ```
+2. **Configuration**: Update the `TOKEN`, `USERNAME`, and `GRAPH_ID` variables in the script with your preferred values.
+3. **Run**: Execute the script. When prompted, input the number of pools you swam that day.
+4. **Feedback**: The script will communicate with the Pixela API and display the result of your operation.
+
+## 🔒 Security Note
+
+Avoid hardcoding sensitive data like tokens directly in the script. It's recommended to use environment variables or external configuration files for better security.
